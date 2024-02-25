@@ -24,7 +24,7 @@ body {
 
 input[type=radio] {
     position: relative;
-    top: 100%;
+    top: 110%;
     left: 50%;
     width: 18px;
     height: 18px;
@@ -87,6 +87,8 @@ input[type=radio]:checked {
 
 /* slider functionality */
 
+/* slide 1 */
+
 #s1:checked~#slide1 {
     transform: translate3d(0%, 0, 0px);
 }
@@ -104,5 +106,93 @@ input[type=radio]:checked {
 }
 
 #s1:checked~#slide5 {
+    transform: translate3d(-15%, 0, -100px);
+}
+
+/* slide 2 */
+
+#s2:checked~#slide2 {
+    transform: translate3d(0%, 0, 0px);
+}
+
+#s2:checked~#slide3 {
+    transform: translate3d(15%, 0, -100px);
+}
+
+#s2:checked~#slide4 {
+    transform: translate3d(30%, 0, -250px);
+}
+
+#s2:checked~#slide5 {
+    transform: translate3d(-30%, 0, -250px);
+}
+
+#s2:checked~#slide1 {
+    transform: translate3d(-15%, 0, -100px);
+}
+
+/* slide 3 */
+
+#s3:checked~#slide3 {
+    transform: translate3d(0%, 0, 0px);
+}
+
+#s3:checked~#slide4 {
+    transform: translate3d(15%, 0, -100px);
+}
+
+#s3:checked~#slide5 {
+    transform: translate3d(30%, 0, -250px);
+}
+
+#s3:checked~#slide1 {
+    transform: translate3d(-30%, 0, -250px);
+}
+
+#s3:checked~#slide2 {
+    transform: translate3d(-15%, 0, -100px);
+}
+
+/* slide 4 */
+
+#s4:checked~#slide4 {
+    transform: translate3d(0%, 0, 0px);
+}
+
+#s4:checked~#slide5 {
+    transform: translate3d(15%, 0, -100px);
+}
+
+#s4:checked~#slide1 {
+    transform: translate3d(30%, 0, -250px);
+}
+
+#s4:checked~#slide2 {
+    transform: translate3d(-30%, 0, -250px);
+}
+
+#s4:checked~#slide3 {
+    transform: translate3d(-15%, 0, -100px);
+}
+
+/* slide 5 */
+
+#s5:checked~#slide5 {
+    transform: translate3d(0%, 0, 0px);
+}
+
+#s5:checked~#slide1 {
+    transform: translate3d(15%, 0, -100px);
+}
+
+#s5:checked~#slide2 {
+    transform: translate3d(30%, 0, -250px);
+}
+
+#s5:checked~#slide3 {
+    transform: translate3d(-30%, 0, -250px);
+}
+
+#s5:checked~#slide4 {
     transform: translate3d(-15%, 0, -100px);
 }
